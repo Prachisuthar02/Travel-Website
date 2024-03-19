@@ -13,14 +13,7 @@ const contents = document.querySelectorAll(".content");
 
 var sliderNav = function(manual){
     btns.forEach((btn) =>{
-        btn.classList.remove("active");
-    });
-
-    slides.forEach((slider) =>{
-        slider.classList.remove("active");
-    });
-
-    contents.forEach((content) =>{
+        btn.classList.remove("active")content) =>{
        content.classList.remove("active");
     });
 
